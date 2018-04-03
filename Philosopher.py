@@ -1,15 +1,10 @@
-from faker import Faker
-import threading
-import time
-import random
-
+import threading, time, random
 
 class Philosopher(threading.Thread):
-  fake = Faker()
 
-  def __init__(self, left_chopstick, right_chopstick, color):
+  def __init__(self, name, left_chopstick, right_chopstick, color):
     threading.Thread.__init__(self)
-    self.name = color + self.fake.first_name() + '\033[00m'
+    self.name = color + name + '\033[00m'
     self.left_chopstick = left_chopstick
     self.right_chopstick = right_chopstick
 
