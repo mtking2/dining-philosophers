@@ -4,8 +4,8 @@
 </p>
 
 ## Variants:
-- [Python](python/)
 - [C++](c++/)
+- [Python](python/)
 - [Ruby](ruby/)
 
 # Contributing
