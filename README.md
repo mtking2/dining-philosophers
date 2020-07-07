@@ -10,14 +10,14 @@
 
 # Contributing
 
-## Rules
+### Rules
 
 I only ask for two requirements when contributing:
 
 1. You must provide a working solution to the DPP
 2. Your solution must be Object Oriented
 
-## How to Contribute
+### How to Contribute
 
 1. Fork and clone this repo
 2. Add code for the new variant
