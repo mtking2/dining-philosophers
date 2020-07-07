@@ -4,5 +4,5 @@
 </p>
 
 Variants:
-- [Python](python/README.md)
-- [C++](c++/README.md)
+- [Python](python/)
+- [C++](c++/)
