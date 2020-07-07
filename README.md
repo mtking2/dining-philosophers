@@ -6,4 +6,4 @@
 Variants:
 - [Python](python/)
 - [C++](c++/)
-- [Ruby][ruby/]
+- [Ruby](ruby/)
