@@ -44,13 +44,7 @@ int main() {
         chopsticks[i] = new Chopstick();
 
     for (int i = 0; i < names.size(); i++) {
-        int rc;
-
-        if (i == names.size() - 1)
-            rc = 0;
-        else
-            rc = i + 1;
-
+        int rc = (i + 1) % names.size();
         philosophers[i] = new Philosopher(colors[i] + names[i] + white, 5, *chopsticks[i], *chopsticks[rc], global_lock);
     }
 
