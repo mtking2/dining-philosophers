@@ -35,12 +35,12 @@ void Philosopher::eat() {
     lock_guard<mutex> rc(right_chopstick.mtx);
 
     emote("is eating (" + to_string(++food_eaten) + "/" + to_string(appetite) + ")");
-    ponder(4, 8);
+    ponder(3, 5);
 }
 
 void Philosopher::think() {
     emote("is thinking");
-    ponder(4, 8);
+    ponder(2, 4);
 }
 
 void Philosopher::ponder(int min_sec, int max_sec) {

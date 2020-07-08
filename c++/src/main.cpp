@@ -21,7 +21,7 @@ mutex global_lock;
 
 array<string, 5> names = {"Plato", "Socrates", "Kant", "Descartes", "Confucius"};
 
-array<string, 6> colors = {
+array<string, 5> colors = {
     "\033[31m", // red
     "\033[33m", // yellow
     "\033[32m", // green
@@ -43,10 +43,12 @@ int main() {
     for (int i = 0; i < chopsticks.size(); i++)
         chopsticks[i] = new Chopstick();
 
+    cout << "\nPhilosophers: " << endl;
     for (int i = 0; i < names.size(); i++) {
         int rc = (i + 1) % names.size();
         philosophers[i] = new Philosopher(colors[i] + names[i] + white, 5, *chopsticks[i], *chopsticks[rc], global_lock);
     }
+    cout << endl << endl;
 
     signal(SIGINT, quit);
 
