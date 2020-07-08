@@ -8,7 +8,7 @@
 - [C++](c++/)
 - [Ruby](ruby/)
 
-# Contributing
+## Contributing
 
 ### Rules
 
@@ -29,6 +29,6 @@ I only ask for two requirements when contributing:
 4. Add a link to the top-level `README.md` to your new solution
 5. Open a PR
 
-# License
+## License
 
 GNU GPL v3.0, see [LICENSE](https://github.com/mtking2/dining-philosophers/blob/master/LICENSE)
