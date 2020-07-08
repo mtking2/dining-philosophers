@@ -4,8 +4,8 @@
 </p>
 
 ## Variants:
-- [Python](python/)
 - [C++](c++/)
+- [Python](python/)
 - [Ruby](ruby/)
 
 ## Contributing
@@ -21,11 +21,11 @@ I only ask for two requirements when contributing:
 
 1. Fork and clone this repo
 2. Add code for the new variant
-  - If you want to add a different solution to an already existing language then simply put it in a sub-directory under that language like so: `<language_dir>/<my_variant_dir>/`
+    - If you want to add a different solution to an already existing language then simply put it in a sub-directory under that language like so: `<language_dir>/<my_variant_dir>/`
 3. Create a `README.md` for your variant that describes:
- - The language used.
- - The methods used in the solution (i.e. Mutex/Semaphore, Arbitrator, Chandy/Misra)
- - Instructions on how to run the code
+    - The language used.
+    - The methods used in the solution (i.e. Mutex/Semaphore, Arbitrator, Chandy/Misra)
+    - Instructions on how to run the code
 4. Add a link to the top-level `README.md` to your new solution
 5. Open a PR
 
