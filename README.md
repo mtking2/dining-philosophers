@@ -5,6 +5,7 @@
 
 ## Variants:
 - [C++](c++/)
+- [Java](java/)
 - [Python](python/)
 - [Ruby](ruby/)
 
