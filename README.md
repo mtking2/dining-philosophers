@@ -4,6 +4,8 @@
 </p>
 
 ## Variants:
+- [C](C/)
+- [C#](C#/)
 - [C++](c++/)
 - [Java](java/)
 - [Python](python/)
