@@ -1,5 +1,4 @@
-C flavored solution 
+C flavored solution
 
 Simply clone and run:
-```gcc DiningPhilosophers.c
-```
+`gcc DiningPhilosophers.c`
