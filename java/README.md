@@ -1,6 +1,7 @@
 Java 8 flavored solution using the built in threads
 
-Simply clone and run:\
-`javac DiningPhilosophers.java`\
-`javac Philosopher.java`\
-`java DiningPhilosophers`
+Simply clone and run:
+```shell
+javac DiningPhilosophers.java Philosopher.java
+java DiningPhilosophers
+```
