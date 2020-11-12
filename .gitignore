@@ -1,0 +1,9 @@
+# c, c++
+a.out
+
+# java
+*.class
+
+# rust
+target/
+Cargo.lock
