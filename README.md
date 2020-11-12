@@ -6,7 +6,7 @@
 ## Variants:
 - [C](C/)
 - [C#](C#/)
-- [C++](c++/)
+- [C++](C++/)
 - [Java](java/)
 - [Python](python/)
 - [Ruby](ruby/)
