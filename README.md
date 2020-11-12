@@ -7,10 +7,11 @@
 - [C](C/)
 - [C#](C#/)
 - [C++](C++/)
+- [Go](golang/)
 - [Java](java/)
 - [Python](python/)
 - [Ruby](ruby/)
-- [Go](golang/)
+- [Rust](rust/)
 
 ## Contributing
 
