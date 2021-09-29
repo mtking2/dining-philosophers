@@ -20,7 +20,7 @@
 I only ask for two requirements when contributing:
 
 1. You must provide a working solution to the DPP
-2. Your solution must be Object Oriented
+2. Your solution must be Object Oriented (or close to it, using structs or the like)
 
 ### How to Contribute
 
